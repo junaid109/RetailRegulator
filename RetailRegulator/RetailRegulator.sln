@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetailRegulator", "RetailRegulator.csproj", "{ABAB522F-792C-46BE-A559-A3B49D79ECB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RetailRegulator.Web", "RetailRegulator.Web.csproj", "{ABAB522F-792C-46BE-A559-A3B49D79ECB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{842222E5-302B-4B72-B26F-A349C7EB1182}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5DF6E141-B69F-46DC-AAD4-71F289802EFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Retail.Services.ProductAPI", "..\Retail.Services.ProductAPI\Retail.Services.ProductAPI.csproj", "{78A48970-913B-4ADE-8C87-9AAA3B7A7DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{ABAB522F-792C-46BE-A559-A3B49D79ECB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABAB522F-792C-46BE-A559-A3B49D79ECB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABAB522F-792C-46BE-A559-A3B49D79ECB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78A48970-913B-4ADE-8C87-9AAA3B7A7DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78A48970-913B-4ADE-8C87-9AAA3B7A7DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78A48970-913B-4ADE-8C87-9AAA3B7A7DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78A48970-913B-4ADE-8C87-9AAA3B7A7DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ABAB522F-792C-46BE-A559-A3B49D79ECB8} = {842222E5-302B-4B72-B26F-A349C7EB1182}
+		{78A48970-913B-4ADE-8C87-9AAA3B7A7DD4} = {5DF6E141-B69F-46DC-AAD4-71F289802EFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE44DF34-0A86-4594-8B80-1A82C6888620}
